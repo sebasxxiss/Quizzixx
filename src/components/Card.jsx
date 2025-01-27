@@ -2,7 +2,7 @@ import { useQuery } from "@tanstack/react-query"
 import React, { useEffect, useState } from "react"
 
 async function fetchData(){
-    const rawFetch = await fetch("https://quizapi.io/api/v1/questions?apiKey=R0TTKIk2pzIVFBqeiACcVCkNJeFkWp8BCSq9eLWt")
+    const rawFetch = await fetch("https://quizapi.io/api/v1/questions?apiKey=")
     const data= await rawFetch.json()
     return data
 }
